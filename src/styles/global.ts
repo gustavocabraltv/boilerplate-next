@@ -34,6 +34,9 @@ const GlobalStyles = createGlobalStyle`
   }
 
   ${({ theme }) => css`
+    button {
+      cursor: pointer;
+    }
     html {
       font-size: 62.5%;
     }
