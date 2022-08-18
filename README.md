@@ -2,9 +2,11 @@
 ![React Design System](https://raw.githubusercontent.com/gustavocabraltv/boilerplate-next/main/public/img/cover.svg)
 
 This is a [Next.js](https://nextjs.org/) boilerplate to be used to scale your Design System[ci](https://github.com/React-Avancado/boilerplate/workflows/ci/badge.svg)
-## What is inside?
+## Escalando entrega de UI com Storybook
 
-This project uses lot of stuff as:
+Ao desenvolver a interface do usuário em um projeto, quantas vezes você viu desenvolvedores e designers tendo problemas porque a colaboração deles não era realmente boa? Enviando um novo recurso que não combina com o design... ou recebendo um design que tecnicamente não é o ideal, mas já foi aprovado! Essas coisas acontecem quando há uma lacuna entre o design e o desenvolvimento.
+
+Vamos ver como o storybook pode preencher essa lacuna e melhorar colaboração entre Design e Desenvolvimento, apresentando casos de uso e demonstrações.
 
 - [TypeScript](https://www.typescriptlang.org/)
 - [NextJS](https://nextjs.org/)

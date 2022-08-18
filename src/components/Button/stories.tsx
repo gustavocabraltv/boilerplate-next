@@ -19,7 +19,7 @@ Default.args = {
 
 export const withIcon: Story = (args) => <Button {...args} />
 
-Default.args = {
+withIcon.args = {
   size: 'small',
   children: 'Buy Now',
   icon: <AddShoppingCart />
