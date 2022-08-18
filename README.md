@@ -1,4 +1,4 @@
-![Material gratuito](https://raw.githubusercontent.com/gustavocabraltv/boilerplate-next/main/public/img/materialgratuito.svg)
+![Material gratuito](https://raw.githubusercontent.com/gustavocabraltv/boilerplate-next/main/public/img/cover-label.svg)
 ![React Design System](https://raw.githubusercontent.com/gustavocabraltv/boilerplate-next/main/public/img/opengraph.svg)
 
 This is a [Next.js](https://nextjs.org/) boilerplate to be used to scale your Design System[ci](https://github.com/React-Avancado/boilerplate/workflows/ci/badge.svg)
