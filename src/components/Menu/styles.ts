@@ -130,7 +130,7 @@ export const RegisterBox = styled.div`
     > span {
       display: block;
       margin: ${theme.spacings.xxsmall} 0;
-      font-size: ${theme.font.sizes.xsmall};
+      font-size: ${theme.font.sizes.small};
     }
   `}
 `
@@ -140,5 +140,6 @@ export const CreateAccount = styled.a`
     text-decoration: none;
     color: ${theme.colors.primary};
     border-bottom: 0.2rem solid ${theme.colors.primary};
+    font-size: ${theme.font.sizes.small};
   `}
 `
