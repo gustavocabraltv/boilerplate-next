@@ -48,6 +48,12 @@ const GlobalStyles = createGlobalStyle`
     body {
       font-family: ${theme.font.family};
     }
+    h2 {
+      font-size: 18px;
+    }
+    h3 {
+      font-size: 14px;
+    }
   `}
 
 
