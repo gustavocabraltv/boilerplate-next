@@ -1,4 +1,5 @@
 import Image from 'next/image'
+
 import {
   AddShoppingCart,
   Favorite,
@@ -29,7 +30,7 @@ const GameCard = ({
 }: GameCardProps) => (
   <S.Wrapper>
     <S.ImageBox>
-      <Image src={img} alt={title} />
+      <Image src={img} alt={title} layout="fill" objectFit="cover" />
     </S.ImageBox>
     <S.Content>
       <S.Info>

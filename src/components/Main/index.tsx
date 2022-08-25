@@ -1,10 +1,12 @@
+import Menu from 'components/Menu'
 import * as S from './styles'
 
 const Main = ({
-  title = 'React Avançado',
+  title = 'React Avançado!',
   description = 'TypeScript, ReactJS, NextJS e Styled Components'
 }) => (
   <S.Wrapper>
+    <Menu />
     <S.Logo
       src="/img/logo.svg"
       alt="Imagem de um átomo e React Avançado escrito ao lado."
