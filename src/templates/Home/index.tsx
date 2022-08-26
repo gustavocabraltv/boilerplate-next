@@ -1,9 +1,14 @@
-import * as S from './styles'
+import Button from 'components/Button'
+import { Container } from 'components/Container'
+import Menu from 'components/Menu'
 
 const Home = () => (
-  <S.Wrapper>
-    <h1>Home</h1>
-  </S.Wrapper>
+  <section>
+    <Container>
+      <Menu />
+      <Button>sadasd</Button>
+    </Container>
+  </section>
 )
 
 export default Home

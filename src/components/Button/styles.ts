@@ -41,9 +41,11 @@ export const Wrapper = styled.button<WrapperProps>`
   ${({ theme, size, fullWidth, hasIcon }) => css`
     background: linear-gradient(180deg, #ff5f5f 0%, #f062c0 49%);
     color: ${theme.colors.white};
+    cursor: pointer;
     border: 0;
     border-radius: ${theme.border.radius};
     padding: ${theme.spacings.xxsmall};
+
     ${!!size && wrapperModifiers[size](theme)};
     ${!!fullWidth && wrapperModifiers.fullWidth()}
     ${!!hasIcon && wrapperModifiers.withIcon(theme)}
